@@ -5,6 +5,7 @@ import com.example.team7_backend.interfaces.repositories.EmployeeInfoJPAReposito
 import com.example.team7_backend.interfaces.repositories.EmployeeInfoRepository;
 import com.example.team7_backend.models.EmployeeInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,6 +27,7 @@ public class ResourceController {
     @GetMapping("/hello")
     public String helloWorld(){ return "Hello World";}
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/resources")
     public List<EmployeeInfo> getAllEmployees(){
         System.out.println("all employees " + employeeInfoJPARepository.findAll());
