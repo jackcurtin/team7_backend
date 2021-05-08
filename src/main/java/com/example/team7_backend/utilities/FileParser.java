@@ -77,31 +77,31 @@ public class FileParser {
                         break;
                     }
                     case 11: {
-                        employeeInfo.setAnchor(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setAnchor(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 12: {
-                        employeeInfo.setWorkIntakeScoping(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setWorkIntakeScoping(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 13: {
-                        employeeInfo.setInterviewer(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setInterviewer(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 14: {
-                        employeeInfo.setSecurityMaven(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setSecurityMaven(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 15: {
-                        employeeInfo.setAccessibility(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setAccessibility(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 16: {
-                        employeeInfo.setDevSecOps(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setDevSecOps(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 17: {
-                        employeeInfo.setEducationTrack(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setEducationTrack(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 18: {
@@ -109,11 +109,11 @@ public class FileParser {
                         break;
                     }
                     case 19: {
-                        employeeInfo.setContractor(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "C");
+                        employeeInfo.setContractor(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("C"));
                         break;
                     }
                     case 20: {
-                        employeeInfo.setPersonOfColor(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setPersonOfColor(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 21: {
@@ -121,7 +121,7 @@ public class FileParser {
                         break;
                     }
                     case 22: {
-                        employeeInfo.setAvailableForOtherAreas(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase() == "Y");
+                        employeeInfo.setAvailableForOtherAreas(!currentCell.getStringCellValue().isEmpty() && currentCell.getStringCellValue().toUpperCase().equals("Y"));
                         break;
                     }
                     case 23: {

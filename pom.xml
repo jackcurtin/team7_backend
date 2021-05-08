@@ -68,6 +68,14 @@
             <version>2.4.5</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.jboss.logging/jboss-logging -->
+        <dependency>
+            <groupId>org.jboss.logging</groupId>
+            <artifactId>jboss-logging</artifactId>
+            <version>3.3.1.Final</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
