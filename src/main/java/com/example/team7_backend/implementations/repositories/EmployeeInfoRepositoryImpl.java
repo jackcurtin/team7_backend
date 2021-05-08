@@ -14,7 +14,7 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository
-public abstract class EmployeeInfoRepositoryImpl implements EmployeeInfoRepository{
+public class EmployeeInfoRepositoryImpl implements EmployeeInfoRepository{
 
     @Autowired
     private EntityManager entityManager;
