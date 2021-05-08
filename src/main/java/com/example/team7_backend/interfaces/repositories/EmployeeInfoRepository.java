@@ -10,6 +10,6 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 
-public interface EmployeeInfoRepository{
+public interface EmployeeInfoRepository {
     void bulkSave(List<EmployeeInfo> lstEmp);
 }

@@ -19,8 +19,9 @@ public class ResourceController {
     @GetMapping("/hello")
     public String helloWorld(){ return "Hello World";}
 
-    @GetMapping("/resource")
+    @GetMapping("/resources")
     public List<EmployeeInfo> getAllEmployees(){
         List <EmployeeInfo> allEmployees = employeeInfoJPARepository.findAll();
+        return allEmployees;
     }
 }
